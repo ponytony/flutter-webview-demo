@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button @click="test"></button>
+    <button @click="test">test</button>
     <div id="datetime"></div>
   </div>
 </template>
