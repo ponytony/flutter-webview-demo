@@ -38,7 +38,7 @@
         this.currentDate = time;
         this.type = hasTime? 'datetime' : 'date';
         this.show = true;
-        return new Promise((resolve, reject) => {
+        return new Promise(resolve  => {
           this.resolve = resolve;
         })
       }
